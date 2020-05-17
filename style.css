@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+form input {
+  font-family: 'Jost', sans-serif;
+}
+
+header {
+  background-color: transparent;
+  border-bottom: 1px solid #eee;
+}
+
+nav {
+  width: 85%;
+  margin: 0 auto;
+  padding: 7px 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+nav a {
+  color: #f79133;
+}
+
+.logo {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1.5em;
+  width: 15%;
+}
+
+.logo a {
+  background-image: linear-gradient(45deg, #f15c2a, #f79133);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+.search {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.search i {
+  position: relative;
+  top: 9px;
+  color: #f79133;
+  left: 30px;
+}
+
+.search input {
+  border: 0;
+  padding-left: 38px;
+  border-radius: 6px;
+  background: #eee;
+  color: #555;
+  width: 320px;
+  height: 35px;
+}
+
+.notifs {
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.notifs a {
+  margin: 0 1em 0 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  color: #555;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 1em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile p {
+    display: none;
+  }
+
+  .notifs {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .search input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .search input,
+  .search i {
+    display: none;
+  }
+}
