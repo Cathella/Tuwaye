@@ -14,7 +14,7 @@ header {
 }
 
 nav {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   padding: 7px 0;
 }
@@ -92,6 +92,32 @@ nav a {
   height: 40px;
   border-radius: 50%;
   margin-left: 1em;
+}
+
+/* Main styles */
+main {
+  background: rgba(0, 0, 0, .02);
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+}
+
+.middle {
+  width: 60%;
+  background: yellow;
+}
+
+.post-story {
+  height: 80px;
+}
+
+.post-story input {
+  height: 50px;
+  width: 70%
 }
 
 @media only screen and (max-width: 1024px) {
