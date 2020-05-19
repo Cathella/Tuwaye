@@ -6,7 +6,6 @@
 body {
   font-family: 'Jost', sans-serif;
   background-color: rgba(0, 0, 0, .03);
-  /* background-color: black; */
 }
 
 header {
@@ -18,7 +17,6 @@ nav {
   width: 95%;
   margin: 0 auto;
   padding: 10px 0;
-  /* background: pink; */
 }
 
 nav ul {
@@ -100,7 +98,6 @@ nav i {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  /* border: 3px solid #000; */
 }
 
 .profile i {
@@ -113,22 +110,6 @@ main {
   margin: 0 auto;
 }
 
-/* .content {
-  width: 90%;
-  margin: 0 auto;
-  display: flex;
-  justify-content:space-between;
-} */
-
-/* .middle {
-  width: 60%;
-  background: yellow;
-} */
-
-/* .post-story {
-  height: 80px;
-} */
-
 .share {
   display: flex;
   flex-direction: row;
@@ -138,7 +119,6 @@ main {
   margin: .5em 0 0 0;
   padding: 0 1em;
   border-radius: 3px;
-  /* border-sizing: content-box; */
 }
 
 .share p a {
@@ -148,13 +128,7 @@ main {
   color: rgba(0, 0, 0, .5);
 }
 
-/* .post-story input {
-  height: 50px;
-  width: 70%
-} */
-
 .posts_all {
-  /* border-top: 1px solid #eee; */
   margin: 10px 0 0 0;
   padding: 1em 0 0 0;
   position: relative;
@@ -191,6 +165,11 @@ p.description {
   background: rgba(255, 255, 255, .8);
   border-radius: 3px;
   margin: 0 0 1em 0;
+}
+
+.post_with_img img {
+  width: 100%;
+  height: auto;
 }
 
 .summary {
@@ -234,27 +213,5 @@ p.description {
 
 .reactions a {
   color: rgb(255, 40, 0);
+  color: rgba(0, 0, 0, .5);
 }
-
-/* @media only screen and (max-width: 1024px) {
-  .profile p {
-    display: none;
-  }
-
-  .notifs {
-    width: 20%;
-  }
-} */
-
-/* @media only screen and (max-width: 790px) {
-  .search input {
-    width: 200px;
-  }
-} */
-
-/* @media only screen and (max-width: 630px) {
-  .search input,
-  .search i {
-    display: none;
-  }
-} */
