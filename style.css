@@ -3,8 +3,7 @@
   padding: 0;
 }
 
-body,
-form input {
+body {
   font-family: 'Jost', sans-serif;
 }
 
@@ -16,7 +15,8 @@ header {
 nav {
   width: 90%;
   margin: 0 auto;
-  padding: 7px 0;
+  padding: 10px 0;
+  /* background: pink; */
 }
 
 nav ul {
@@ -28,16 +28,21 @@ nav ul {
 }
 
 nav a {
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+
+nav i {
   color: #f79133;
 }
 
-.logo {
+/* .logo {
   font-family: 'Balsamiq Sans', cursive;
   font-size: 1.5em;
   width: 15%;
-}
+} */
 
-.logo a {
+/* .logo a {
   background-image: linear-gradient(45deg, #f15c2a, #f79133);
   background-size: 100%;
   background-repeat: repeat;
@@ -46,22 +51,22 @@ nav a {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   text-decoration: none;
-}
+} */
 
-.search {
+/* .search {
   width: 50%;
   display: flex;
   justify-content: center;
-}
+} */
 
-.search i {
+/* .search i {
   position: relative;
   top: 9px;
   color: #f79133;
   left: 30px;
-}
+} */
 
-.search input {
+/* .search input {
   border: 0;
   padding-left: 38px;
   border-radius: 6px;
@@ -69,58 +74,62 @@ nav a {
   color: #555;
   width: 320px;
   height: 35px;
-}
+} */
 
-.notifs {
+/* .notifs {
   width: 15%;
   display: flex;
   justify-content: flex-end;
-}
+} */
 
-.notifs a {
+/* .notifs a {
   margin: 0 1em 0 0;
-}
+} */
 
 .profile {
   display: flex;
   align-items: center;
-  color: #555;
+  /* color: #555; */
 }
 
 .profile img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  margin-left: 1em;
+  /* border: 3px solid #000; */
+}
+
+.profile i {
+  margin-left: .7em;
 }
 
 /* Main styles */
-main {
+/* main {
   background: rgba(0, 0, 0, .02);
-}
+} */
 
-.content {
+/* .content {
   width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content:space-between;
-}
+} */
 
-.middle {
+/* .middle {
   width: 60%;
   background: yellow;
-}
+} */
 
-.post-story {
+/* .post-story {
   height: 80px;
-}
+} */
 
-.post-story input {
+/* .post-story input {
   height: 50px;
   width: 70%
-}
+} */
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   .profile p {
     display: none;
   }
@@ -128,17 +137,17 @@ main {
   .notifs {
     width: 20%;
   }
-}
+} */
 
-@media only screen and (max-width: 790px) {
+/* @media only screen and (max-width: 790px) {
   .search input {
     width: 200px;
   }
-}
+} */
 
-@media only screen and (max-width: 630px) {
+/* @media only screen and (max-width: 630px) {
   .search input,
   .search i {
     display: none;
   }
-}
+} */
