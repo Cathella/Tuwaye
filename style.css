@@ -5,15 +5,17 @@
 
 body {
   font-family: 'Jost', sans-serif;
+  background-color: rgba(0, 0, 0, .03);
+  /* background-color: black; */
 }
 
 header {
-  background-color: transparent;
+  background-color: #fff;
   border-bottom: 1px solid #eee;
 }
 
 nav {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   padding: 10px 0;
   /* background: pink; */
@@ -34,6 +36,8 @@ nav a {
 
 nav i {
   color: #f79133;
+  color: rgb(255, 8, 0);
+  color: rgb(255, 40, 0);
 }
 
 /* .logo {
@@ -104,9 +108,10 @@ nav i {
 }
 
 /* Main styles */
-/* main {
-  background: rgba(0, 0, 0, .02);
-} */
+main {
+  width: 95%;
+  margin: 0 auto;
+}
 
 /* .content {
   width: 90%;
@@ -124,10 +129,112 @@ nav i {
   height: 80px;
 } */
 
+.share {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  background: #fff;
+  margin: .5em 0 0 0;
+  padding: 0 1em;
+  border-radius: 3px;
+  /* border-sizing: content-box; */
+}
+
+.share p a {
+  line-height: 55px;
+  text-decoration: none;
+  padding-left: .6em;
+  color: rgba(0, 0, 0, .5);
+}
+
 /* .post-story input {
   height: 50px;
   width: 70%
 } */
+
+.posts_all {
+  /* border-top: 1px solid #eee; */
+  margin: 10px 0 0 0;
+  padding: 1em 0 0 0;
+  position: relative;
+}
+
+.story_author {
+  display: flex;
+  list-style: none;
+  line-height: 1.1em;
+}
+
+.story_author li {
+  margin-right: .7em;
+}
+
+p.name {
+  font-weight: bold;
+}
+
+p.time {
+  color: rgba(0, 0, 0, .4);
+  font-size: 14px;
+}
+
+p.description {
+  padding: 1em .5em;
+  font-size: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.post {
+  border-bottom: 1px solid #eee;
+  padding: 2em 1em 1em 1em;
+  background: rgba(255, 255, 255, .8);
+  border-radius: 3px;
+  margin: 0 0 1em 0;
+}
+
+.summary {
+  list-style: none;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #eee;
+  padding: .5em 0;
+}
+
+.summary li {
+  margin: .4em .8em .4em 0;
+}
+
+.summary a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .7)
+}
+
+.summary span {
+  font-weight: bold;
+}
+
+.reactions {
+  list-style: none;
+  display: flex;
+  padding: .8em .5em;
+}
+
+.reactions li {
+  border: 1px solid rgba(0, 0, 0, .3);
+  font-size: .85em;
+  height: 35px;
+  line-height: 35px;
+  width: 35px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 .5em 0 0;
+}
+
+.reactions a {
+  color: rgb(255, 40, 0);
+}
 
 /* @media only screen and (max-width: 1024px) {
   .profile p {
