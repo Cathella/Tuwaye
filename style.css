@@ -33,7 +33,6 @@ nav a {
 
 nav i {
   color: #f79133;
-  color: rgb(255, 8, 0);
   color: #7262e2;
 }
 
@@ -89,10 +88,10 @@ nav i {
 .profile {
   display: flex;
   align-items: center;
-  /* color: #555; */
 }
 
-.profile img {
+.profile img,
+.status img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -114,16 +113,63 @@ main {
   align-items: center;
   justify-content:space-between;
   background: #fff;
-  margin: .5em 0 0 0;
+  margin: .8em 0 0 0;
   padding: 0 1em;
   border-radius: 3px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.1);
 }
 
 .share p a {
   line-height: 55px;
   text-decoration: none;
-  padding-left: .6em;
   color: rgba(0, 0, 0, .5);
+}
+
+.icons i {
+  background-color: rgba(239, 225, 254, .3);
+  color:  #4782f8;
+  margin: 0 0 0 .2em;
+  border-radius: 50%;
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.icons i#camera {
+  padding: 10.5px 10px;
+}
+
+.icons i#video {
+  padding: 10.5px 9.5px;
+}
+
+.stories {
+  margin: 1em 0;
+  padding: .6em 0;
+  /* background: orange; */
+}
+
+.status-section {
+  display: flex;
+}
+
+.status {
+  background-color: rgba(239, 225, 254, 1);
+  border-radius: 6px;
+  width: 120px;
+  text-align: center;
+  margin: 2em .6em 0 0;
+  padding-bottom: .5em;
+}
+
+.status img {
+  position: relative;
+  top: -15px;
+  border: 2px solid #7262e2;
+}
+
+.status p {
+  font-size: 13px;
 }
 
 .posts_all {
@@ -211,4 +257,22 @@ p.description {
 
 .reactions a {
   color: #7262e2;
+}
+
+.load-more {
+  text-align: center;
+  margin: 2em 0 2em 0;
+  /* border-top: 1px solid #eee; */
+}
+
+.load-more p {
+  margin: 1em 0 0 0;
+}
+
+.load-more a {
+  text-decoration: none;
+  background: #4782f8;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #fff;
 }
