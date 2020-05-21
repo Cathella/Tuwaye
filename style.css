@@ -11,12 +11,13 @@ body {
 header {
   background-color: #fff;
   border-bottom: 1px solid #eee;
+  background-image: linear-gradient(60deg, #4782f8, #7262e2);
 }
 
 nav {
   width: 95%;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 12px 0;
 }
 
 nav ul {
@@ -32,23 +33,23 @@ nav a {
 }
 
 nav i {
-  color: #f79133;
-  color: #7262e2;
+  color: rgba(255, 255, 255, .7);
 }
 
 .logo {
   font-family: 'Balsamiq Sans', cursive;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .logo a {
-  background-image: linear-gradient(100deg, #4782f8, #7262e2);
-  background-size: 100%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+  /* background-image: linear-gradient(100deg, #4782f8, #7262e2); */
+  /* background-size: 100%; */
+  /* background-repeat: repeat; */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent;  */
+  /* -moz-background-clip: text; */
+  /* -moz-text-fill-color: transparent; */
+  color: rgba(255, 255, 255, .95);
   text-decoration: none;
 }
 
@@ -90,6 +91,10 @@ nav i {
   align-items: center;
 }
 
+.profile img {
+  margin-left: 1em;
+}
+
 .profile img,
 .status img {
   width: 30px;
@@ -98,7 +103,7 @@ nav i {
 }
 
 .profile i {
-  margin-left: .7em;
+  margin-right: .7em;
 }
 
 /* Main styles */
@@ -146,16 +151,17 @@ main {
 .stories {
   margin: 1em 0;
   padding: .6em 0;
-  /* background: orange; */
 }
 
 .status-section {
   display: flex;
+  overflow: hidden;
 }
 
 .status {
-  background-color: rgba(239, 225, 254, 1);
-  border-radius: 6px;
+  /* background-color: rgba(239, 225, 254, 1); */
+  background-image: linear-gradient(160deg, #4782f8, #7262e2);
+  border-radius: 5px;
   width: 120px;
   text-align: center;
   margin: 2em .6em 0 0;
@@ -165,11 +171,12 @@ main {
 .status img {
   position: relative;
   top: -15px;
-  border: 2px solid #7262e2;
+  border: 2px solid #f4f4f4;
 }
 
 .status p {
   font-size: 13px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .posts_all {
