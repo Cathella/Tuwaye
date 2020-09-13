@@ -252,6 +252,7 @@ h2 {
   background: linear-gradient(60deg, #4782f8, #7262e2);
   color: white;
   padding: 7.5em 4em;
+  text-align: center;
 }
 
 .signup-section h2 {
@@ -272,7 +273,9 @@ h2 {
 .signup-section button {
   background: white;
   color: #4782f8;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  font-weight: 500;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.1);
 }
 
 .image-prof {
@@ -300,6 +303,7 @@ h2 {
   text-align: center;
   width: 1.6em;
   font-weight: 500;
+  border-radius: 0 0.25rem 0 0.25rem;
 }
 
 .feat {
@@ -335,11 +339,13 @@ h2 {
 }
 
 .see-more-stories {
-  border: 1px solid #4782f8;
-  color: #4782f8;
+  /* border: 1px solid black; */
+  color: white;
   font-weight: 500;
   text-transform: uppercase;
   padding: .7em 2em;
+  background: linear-gradient(60deg, #4782f8, #7262e2);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.1);
 }
 
 .comm-story {
@@ -407,6 +413,7 @@ h2 {
   text-align: center;
   line-height: 40px;
   color: #4782f8;
+  border-radius: 0.25rem 0 0.25rem 0;
 }
 
 .podcaster img {
@@ -416,6 +423,34 @@ h2 {
 
 .podcasts {
   margin: 0 0 4em 0;
+}
+
+footer {
+  background: linear-gradient(160deg, #7262e2, #4782f8);
+  color: white;
+  padding: 5.5em 0 3em;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  line-height: 2.1;
+}
+
+footer p {
+  font-weight: 500;
+  font-size: .9em;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: wheat;
+  text-decoration: underline;
 }
 
 /* @media (min-width: 370px) {
