@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Jost', sans-serif;
-  background-color: rgba(0, 0, 0, .03);
+  background-color: rgba(0, 0, 0, .01);
 }
 
 header {
@@ -225,7 +225,7 @@ p.description {
 
 /* Home page */
 .top-featured {
-  margin: 0 4em 0 8em;
+  margin: 0 4em 8em 8em;
   padding: 2em 0 2em 1em;
 }
 
@@ -239,8 +239,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5em;
-  line-height: 1.5;
+  font-size: 2.4em;
+  line-height: 1.45;
 }
 
 .top-featured .logo a {
@@ -277,7 +277,7 @@ h2 {
 
 .image-prof {
   height: 85px;
-  width: 95px;
+  width: 100%;
   overflow: hidden;
   position: relative;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.1);
@@ -320,11 +320,18 @@ h2 {
 }
 
 .top-intro {
-  margin: 0 0 10em 0;
+  margin: 0 0 5em 0;
+  padding-left: 0px;
+  padding-right: 0;
+  overflow: hidden;
 }
 
 .stories-community {
-  margin: 0 0 8em 0;
+  padding: 0 0 8em 0;
+  background: url('img/Yellow_icon.svg.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 35%;
 }
 
 .see-more-stories {
@@ -371,6 +378,7 @@ h2 {
 .podcaster-auth {
   font-size: 1.3em;
   margin: 1em 0 0 1em;
+  color: #777;
 }
 
 .line {
