@@ -53,11 +53,6 @@ nav i {
 }
 
 /* Main styles */
-main {
-  /* width: 95%; */
-  /* margin: 0 auto; */
-}
-
 .share {
   background: #fff;
   margin: 1.5em 0 0 0;
@@ -75,35 +70,8 @@ main {
   color: #777;
 }
 
-.share p span {
-  /* display: none; */
-}
-
-.icons i {
-  /* background-color: rgba(239, 225, 254, .3); */
-  /* color:  #4782f8; */
-  /* margin: 0 0 0 .2em; */
-  /* border-radius: 50%; */
-  /* font-size: 14px; */
-  /* text-align: center; */
-  /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); */
-}
-
-.icons i#camera {
-  /* padding: 10.5px 10px; */
-}
-
-.icons i#video {
-  /* padding: 10.5px 9.5px; */
-}
-
 .stories {
   margin: 2em 0;
-}
-
-.status-section {
-  /* display: flex; */
-  /* overflow: hidden; */
 }
 
 .status {
