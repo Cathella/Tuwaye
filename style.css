@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Jost', sans-serif;
-  background-color: rgba(0, 0, 0, .03);
+  background-color: rgba(0, 0, 0, .01);
 }
 
 header {
@@ -223,8 +223,391 @@ p.description {
   color: #fff;
 }
 
-/* @media (min-width: 370px) {
-  .share p span {
-    display: inline;
+/* Home page */
+.top-featured {
+  margin: 0 4em 8em 8em;
+  padding: 2em 0 2em 1em;
+}
+
+h1,
+h2 {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.4em;
+  line-height: 1.45;
+}
+
+.top-featured .logo a {
+  color: #4782f8;
+}
+
+/* signup-section */
+.signup-section {
+  background: linear-gradient(60deg, #4782f8, #7262e2);
+  color: white;
+  padding: 7.5em 4em;
+  text-align: center;
+}
+
+.signup-section h2 {
+  margin: 0 0 1em 0;
+}
+
+.signup-section input,
+.signup-section button {
+  height: 3em;
+  background: transparent;
+  color: white;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, .5);
+  padding: 0 0 0 1em;
+  border-radius: 0.25rem;
+}
+
+.signup-section button {
+  background: white;
+  color: #4782f8;
+  text-transform: capitalize;
+  font-weight: 500;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.1);
+}
+
+.image-prof {
+  height: 85px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 1em 0 0;
+  border-radius: 0.25rem;
+}
+
+.image-prof img {
+  width: 100%;
+  height: auto;
+}
+
+.numbered {
+  position: absolute;
+  background: white;
+  color: #4782f8;
+  bottom: -1em;
+  left: 0;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 1.6em;
+  font-weight: 500;
+  border-radius: 0 0.25rem 0 0.25rem;
+}
+
+.feat {
+  margin: 1em 0 1.5em 0;
+}
+
+.title-name p {
+  margin: 0 0 0 .5em;
+}
+
+.feat-title {
+  font-weight: 500;
+}
+
+.feat-auth {
+  color: #777;
+  font-size: .9em;
+}
+
+.top-intro {
+  margin: 0 0 5em 0;
+  padding-left: 0px;
+  padding-right: 0;
+  overflow: hidden;
+}
+
+.stories-community {
+  padding: 0 0 8em 0;
+  background: url('img/Yellow_icon.svg.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 35%;
+}
+
+.see-more-stories {
+  /* border: 1px solid black; */
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: .7em 2em;
+  background: linear-gradient(60deg, #4782f8, #7262e2);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.1);
+}
+
+.comm-story {
+  margin: 2em 0 0 0;
+  background: #eee;
+  padding: 3em 2em 0 2em;
+  height: 23em;
+}
+
+.comm-story-image {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  margin: 0 auto 1.6em auto;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.1);
+}
+
+.comm-story img {
+  width: 100%;
+  height: auto;
+}
+
+.comm-story-p {
+  padding: 1em 2em;
+}
+
+.comm-story-auth,
+.podcaster-auth {
+  padding: 0 0 0 0em;
+  font-size: 1.5em;
+  font-weight: 800;
+  position: relative;
+}
+
+.podcaster-auth {
+  font-size: 1.3em;
+  margin: 1em 0 0 1em;
+  color: #777;
+}
+
+.line {
+  width: 80px;
+  border-top: 1px solid black;
+  margin: 1em 0 0 0;
+}
+
+.podcaster {
+  background: #eee;
+  width: 100%;
+  height: 19em;
+  overflow: hidden;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  position: relative;
+}
+
+.play {
+  position: absolute;
+  bottom: -1em;
+  right: 0;
+  background: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #4782f8;
+  border-radius: 0.25rem 0 0.25rem 0;
+}
+
+.podcaster img {
+  width: 100%;
+  height: auto;
+}
+
+.podcasts {
+  margin: 0 0 4em 0;
+}
+
+footer {
+  background: linear-gradient(160deg, #7262e2, #4782f8);
+  color: white;
+  padding: 5.5em 0 3em;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  line-height: 2.1;
+}
+
+footer p {
+  font-weight: 500;
+  font-size: .9em;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: wheat;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1257px) {
+  .signup-section {
+    padding: 7.5em 1.5em;
   }
-} */
+
+  .top-featured {
+    margin: 0 2em 8em 4em;
+  }
+}
+
+@media only screen and (max-width: 1257px) {
+  .podcaster {
+    height: 15em;
+  }
+}
+
+@media only screen and (max-width: 1085px) {
+  .top-featured {
+    margin: 0 2em 5em 2em;
+    padding: 2em 0 2em 0em;
+  }
+}
+
+@media only screen and (max-width: 1016px) {
+  .signup-section {
+    padding: 5em 1.5em;
+  }
+
+  .signup-section h2 {
+    font-size: 2em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .top-intro {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .comm-story-p {
+    padding: 1em 0;
+  }
+
+  .comm-story {
+    padding: 2em .5em 0 .5em;
+  }
+
+  .podcaster {
+    height: 12em;
+  }
+
+  .podcaster-auth {
+    margin: 1em 0 1.5em 1em;
+  }
+}
+
+@media only screen and (max-width: 884px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .top-featured {
+    margin: 0 0 2em 2em;
+  }
+  
+  .stories-community {
+    padding: 2em 0 8em 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .stories-community {
+    margin: 3em 0 0 0;
+  }
+
+  .signup-section {
+    padding: 5em 5em;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .stories-community .w-50 {
+    width: 100% !important;
+  }
+
+  .stories-community .d-flex {
+    flex-direction: column;
+  }
+
+  .see-more-stories {
+    margin: 2em 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .signup-section {
+    padding: 3em 1em 1em 1em;
+  }
+
+  .top-featured .col-3 {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .top-featured .col-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .top-featured .w-75 {
+    width: 100% !important;
+  }
+
+  .image-prof {
+    height: 100px;
+    margin: 0 0em 1em 0;
+  }
+
+  .top-featured {
+    margin: 0 1em 2em 1em;
+  }
+
+  .line {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 336px) {
+  .podcaster {
+    height: 10em;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .top-featured .col-3,
+  .podcasts .col-6,
+  footer .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .image-prof {
+    height: 160px;
+  }
+
+  .image-prof img,
+  .podcaster img {
+    position: relative;
+    top: -3em;
+  }
+}
