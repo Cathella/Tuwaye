@@ -535,3 +535,79 @@ footer a:hover {
     padding: 5em 5em;
   }
 }
+
+@media only screen and (max-width: 575px) {
+  .stories-community .w-50 {
+    width: 100% !important;
+  }
+
+  .stories-community .d-flex {
+    flex-direction: column;
+  }
+
+  .see-more-stories {
+    margin: 2em 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .signup-section {
+    padding: 3em 1em 1em 1em;
+  }
+
+  .top-featured .col-3 {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .top-featured .col-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .top-featured .w-75 {
+    width: 100% !important;
+  }
+
+  .image-prof {
+    height: 100px;
+    margin: 0 0em 1em 0;
+  }
+
+  .top-featured {
+    margin: 0 1em 2em 1em;
+  }
+
+  .line {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 336px) {
+  .podcaster {
+    height: 10em;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .top-featured .col-3,
+  .podcasts .col-6,
+  footer .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .image-prof {
+    height: 160px;
+  }
+
+  .image-prof img,
+  .podcaster img {
+    position: relative;
+    top: -3em;
+  }
+}
