@@ -8,11 +8,6 @@ body {
   background-color: rgba(0, 0, 0, .01);
 }
 
-header {
-  border-bottom: 1px solid #eee;
-  background: linear-gradient(60deg, #4782f8, #7262e2);
-}
-
 nav {
   padding: 1em 0;
 }
@@ -49,15 +44,10 @@ nav i {
 
 .profile i {
   margin-right: 1em;
-  font-size: 1.6em;
+  /* font-size: 1.6em; */
 }
 
 /* Main styles */
-main {
-  /* width: 95%; */
-  /* margin: 0 auto; */
-}
-
 .share {
   background: #fff;
   margin: 1.5em 0 0 0;
@@ -75,35 +65,20 @@ main {
   color: #777;
 }
 
-.share p span {
-  /* display: none; */
-}
-
-.icons i {
-  /* background-color: rgba(239, 225, 254, .3); */
-  /* color:  #4782f8; */
-  /* margin: 0 0 0 .2em; */
-  /* border-radius: 50%; */
-  /* font-size: 14px; */
-  /* text-align: center; */
-  /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); */
-}
-
-.icons i#camera {
-  /* padding: 10.5px 10px; */
-}
-
-.icons i#video {
-  /* padding: 10.5px 9.5px; */
-}
-
 .stories {
   margin: 2em 0;
 }
 
-.status-section {
-  /* display: flex; */
-  /* overflow: hidden; */
+.blue-bg {
+  background: #4782f8;
+}
+
+.purple-bg {
+  background: #7262e2;
+}
+
+.grey-text {
+  color: #777;
 }
 
 .status {
@@ -126,7 +101,7 @@ main {
 }
 
 .posts_all {
-  padding: 1em 0 0 0;
+  padding: 2em 0 0 0;
   position: relative;
 }
 
@@ -146,29 +121,29 @@ p.name {
   font-weight: bold;
 }
 
-p.time {
-  color: #777;
-}
-
 p.description {
-  padding:  .5em;
+  /* padding:  .5em; */
   font-size: 16px;
   border-bottom: 1px solid #eee;
-  color: #777;
+  /* color: #777; */
   margin: 0;
 }
 
 .post {
   border-bottom: 1px solid #eee;
   padding: 1.7em 1em 1em 1em;
-  background: rgba(255, 255, 255, 1);
+  /* background: rgba(255, 255, 255, 1); */
   border-radius: 0.25rem;
-  margin: 0 0 1em 0;
+  margin: 0 0 1.7em 0;
+}
+
+.post_with_img {
+  overflow: hidden;
 }
 
 .post_with_img img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 280px;
 }
 
 .summary {
@@ -196,13 +171,13 @@ p.description {
 }
 
 .reactions li {
-  border: 1px solid rgba(0, 0, 0, .1);
-  font-size: 1em;
-  height: 40px;
+  /* border: 1px solid rgba(0, 0, 0, .1); */
+  font-size: .9em;
+  /* height: 40px; */
   line-height: 40px;
-  width: 40px;
+  width: 80px;
   text-align: center;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   margin: 0 .5em 0 0;
 }
 
