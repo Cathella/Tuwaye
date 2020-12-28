@@ -75,6 +75,10 @@ nav ul {
   background: #7262e2;
 }
 
+.text-purple-light {
+  color: #7262e2;
+}
+
 .grey-text {
   color: #777;
 }
@@ -109,8 +113,8 @@ nav ul {
 }
 
 .story_author li {
-  margin-right: .8em;
-  color: #183153;
+  /* margin-right: .8em; */
+  /* color: #183153; */
   font-weight: bold;
 }
 
@@ -125,17 +129,17 @@ p.name {
 p.description {
   /* padding:  .5em; */
   font-size: 16px;
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
   /* color: #777; */
   margin: 0;
 }
 
 .post {
-  border-bottom: 1px solid #eee;
-  padding: 1.7em 1em 1em 1em;
+  /* border-bottom: 1px solid #eee; */
+  /* padding: 1.7em 1em 1em 1em; */
   /* background: rgba(255, 255, 255, 1); */
-  border-radius: 0.25rem;
-  margin: 0 0 1.7em 0;
+  /* border-radius: 0.25rem; */
+  /* margin: 0 0 1.7em 0; */
 }
 
 .post_with_img {
