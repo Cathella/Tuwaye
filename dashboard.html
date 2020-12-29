@@ -13,269 +13,122 @@
 		crossorigin="anonymous"
 	></script>
 </head>
-<body>
-  <header class="blue-bg">
-    <nav class="container">
-      <ul class="d-flex justify-content-between align-items-center">
-        <li class="logo"><a href="#">#Tuwaye</a></li>
-        <li class="profile d-flex align-items-center">
-          <a href="#" class="text-white"><i class="far fa-lg fa-bell"></i></a>
-          <img src="img/prof.png" alt="">
-        </li>
-      </ul>
-    </nav>
-  </header>
-
+<body class="bg-light">
   <main>
     <div class="container">
-      <div class="share d-flex justify-content-between">
-        <p>
-          <a href="#"><span>Catherine, </span>Share your story ...</a>
-        </p>
-      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <nav class="d-flex flex-column">
+            <a href="#" class="logo mb-5 mt-3 text-purple-light">#Tuwaaye</a>
+            <a href="#" class="mt-3 text-purple-light">Feed</a>
+            <a href="#" class="mt-3 text-purple-light">New Story</a>
+            <a href="#" class="mt-3 text-purple-light">Communities</a>
+            <a href="" class="mt-3 text-purple-light">Profile</a>
+            <a href="" class="mt-3 text-purple-light">Podcasts</a>
+            <a href="#" class="mt-5 text-purple-light">Logout</a>
+          </nav>
+        </div>
+        <div class="col-md-7">
+          <header class="">
+            <nav class="">
+              <ul class="d-flex justify-content-between align-items-center">
+                <li class="logo">
+                </li>
+                <form action="#" method="get">
+                  <input type="text" placeholder="Search" class="search-input">
+                </form>
+              </ul>
+            </nav>
+          </header>
 
-      <div class="posts_all">
-		    <p class="mb-3 pb-3">My Feed Stories</p>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="post shadow">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name">Nakitto Catherine</p>
-                  <p class="text-mute">2 hours ago</p>
-                </li>
-              </ul>
-              <div class="post_with_img">
-                <img src="https://images.unsplash.com/photo-1468698940228-771d27066d31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="">
+          <div class="posts_all">
+            <div class="row">
+              <div class="col-md-12">
+                <!-- <div class="share d-flex justify-content-between border rounded">
+                  <p>
+                    <a href="#"><span>Catherine, </span>Share your story ...</a>
+                  </p>
+                </div> -->
+                <div class="d-flex justify-content-between mt-4 mb-4 border-bottom">
+                  <div class="d-flex font-weight-bold px-3">
+                    <p class=""><a href="" class="text-dark">All Stories</a></p>
+                    <p class="pl-4"><a href="#" class="text-purple-light">My Feed</a></p>
+                  </div>
+                </div>
+                <div class="post border-bottom py-3">
+                  <div class="d-flex align-items-center pb-3">
+                    <ul class="story_author d-flex align-items-center">
+                      <li class="profile">
+                        <img src="img/prof.png" alt="">
+                      </li>
+                      <li class="ml-3">
+                        Nakitto Catherine
+                      </li>
+                    </ul>
+                    <ul class="d-flex reactions pl-5 ml-5">
+                      <li><a href="#" class="text-love"><i class="fas fa-heart mr-1"></i>40</a></li>
+                      <li><a href="#" class="text-purple-light"><i class="fas fa-comment mr-1"></i>100</a></li>
+                    </ul>
+                  </div>
+                  <p class="description px-3 pb-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nihil excepturi cupiditate eveniet repellendus deserunt, 
+                    temporibus eos tempora, assumenda alias quod autem magnam eveniet.
+                  </p>
+                </div>
+                <div class="post border-bottom py-3">
+                  <div class="d-flex align-items-center pb-3">
+                    <ul class="story_author d-flex align-items-center">
+                      <li class="profile">
+                        <img src="img/prof.png" alt="">
+                      </li>
+                      <li class="ml-3">
+                        Nakitto Catherine
+                      </li>
+                    </ul>
+                    <ul class="d-flex reactions pl-5 ml-5">
+                      <li><a href="#" class="text-love"><i class="fas fa-heart mr-1"></i>40</a></li>
+                      <li><a href="#" class="text-purple-light"><i class="fas fa-comment mr-1"></i>100</a></li>
+                    </ul>
+                  </div>
+                  <p class="description px-3 pb-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nihil excepturi cupiditate eveniet repellendus deserunt, 
+                    temporibus eos tempora, assumenda alias quod autem magnam eveniet.
+                  </p>
+                </div>
+                <div class="load-more">
+                  <a href="#" class="btn mb-5 py-2 px-5 mt-5 shadow">More Stories</a>
+                </div>
               </div>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="post shadow blue-bg">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name text-white">Nakitto Catherine</p>
-                  <p class="text-white">2 hours ago</p>
-                </li>
-              </ul>
-              <p class="description px-4 pb-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi cupiditate eveniet repellendus deserunt, temporibus eos tempora, assumenda alias quod autem magnam, laboriosam doloremque suscipit delectus nobis iure ex eius.</p>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#" class="text-white">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#" class="text-white">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#" class="text-white">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="post shadow">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name">Nakitto Catherine</p>
-                  <p class="time">2 hours ago</p>
-                </li>
-              </ul>
-              <p class="description px-4 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi cupiditate eveniet repellendus deserunt, temporibus eos tempora, assumenda alias quod autem magnam, laboriosam doloremque suscipit delectus nobis iure ex eius.</p>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="post shadow purple-bg">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name text-white">Nakitto Catherine</p>
-                  <p class="text-white">2 hours ago</p>
-                </li>
-              </ul>
-              <p class="description px-4 pb-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi cupiditate eveniet repellendus deserunt, temporibus eos tempora, assumenda alias quod autem magnam, laboriosam doloremque suscipit delectus nobis iure ex eius.</p>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#" class="text-white">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#" class="text-white">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#" class="text-white">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="post shadow purple-bg">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name text-white">Nakitto Catherine</p>
-                  <p class="text-white">2 hours ago</p>
-                </li>
-              </ul>
-              <p class="description px-4 pb-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi cupiditate eveniet repellendus deserunt, temporibus eos tempora, assumenda alias quod autem magnam, laboriosam doloremque suscipit delectus nobis iure ex eius.</p>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#" class="text-white">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#" class="text-white">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#" class="text-white">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="post shadow">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name">Nakitto Catherine</p>
-                  <p class="text-mute">2 hours ago</p>
-                </li>
-              </ul>
-              <div class="post_with_img">
-                <img src="https://images.unsplash.com/photo-1468698940228-771d27066d31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="">
-              </div>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="post shadow blue-bg">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name text-white">Nakitto Catherine</p>
-                  <p class="text-white">2 hours ago</p>
-                </li>
-              </ul>
-              <p class="description px-4 pb-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi cupiditate eveniet repellendus deserunt, temporibus eos tempora, assumenda alias quod autem magnam, laboriosam doloremque suscipit delectus nobis iure ex eius.</p>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#" class="text-white">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#" class="text-white">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#" class="text-white">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="post shadow">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name">Nakitto Catherine</p>
-                  <p class="time">2 hours ago</p>
-                </li>
-              </ul>
-              <p class="description px-4 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi cupiditate eveniet repellendus deserunt, temporibus eos tempora, assumenda alias quod autem magnam, laboriosam doloremque suscipit delectus nobis iure ex eius.</p>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="post shadow">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name">Nakitto Catherine</p>
-                  <p class="time">2 hours ago</p>
-                </li>
-              </ul>
-              <p class="description px-4 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi cupiditate eveniet repellendus deserunt, temporibus eos tempora, assumenda alias quod autem magnam, laboriosam doloremque suscipit delectus nobis iure ex eius.</p>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="post shadow purple-bg">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name text-white">Nakitto Catherine</p>
-                  <p class="text-white">2 hours ago</p>
-                </li>
-              </ul>
-              <p class="description px-4 pb-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi cupiditate eveniet repellendus deserunt, temporibus eos tempora, assumenda alias quod autem magnam, laboriosam doloremque suscipit delectus nobis iure ex eius.</p>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#" class="text-white">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#" class="text-white">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#" class="text-white">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="post shadow">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name">Nakitto Catherine</p>
-                  <p class="text-mute">2 hours ago</p>
-                </li>
-              </ul>
-              <div class="post_with_img">
-                <img src="https://images.unsplash.com/photo-1468698940228-771d27066d31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="">
-              </div>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="post shadow blue-bg">
-              <ul class="story_author d-flex">
-                <li class="profile"><img src="img/prof.png" alt=""></li>
-                <li>
-                  <p class="name text-white">Nakitto Catherine</p>
-                  <p class="text-white">2 hours ago</p>
-                </li>
-              </ul>
-              <p class="description px-4 pb-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi cupiditate eveniet repellendus deserunt, temporibus eos tempora, assumenda alias quod autem magnam, laboriosam doloremque suscipit delectus nobis iure ex eius.</p>
-              <ul class="reactions d-flex mt-2">
-                <li><a href="#" class="text-white">50<i class="fas fa-arrow-up ml-1 "></i></a></li>
-                <li><a href="#" class="text-white">40<i class="fas fa-heart ml-1"></i></a></li>
-                <li><a href="#" class="text-white">100<i class="fas fa-comment ml-1"></i></a></li>
-              </ul>
             </div>
           </div>
         </div>
-        
-
-        <!-- <div class="post">
-          <ul class="story_author d-flex">
-            <li class="profile"><img src="img/prof.png" alt=""></li>
-            <li>
-              <p class="name">Nakitto Catherine</p>
-              <p class="time">2 hours ago</p>
-            </li>
-          </ul>
-          <p class="description">My endless love for nature.</p>
-          <div class="post_with_img">
-            <img src="https://images.unsplash.com/photo-1468698940228-771d27066d31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="">
+        <div class="col-md-3">
+          <div class="px-2">
+            <div class="d-flex align-items-center justify-content-between pt-4 pb-3 mx-n4 px-4">
+              <a href="#" class="text-purple-light"><i class="fas fa-lg fa-pencil-alt p-3"></i></a>
+              <a href="#" class="text-purple-light"><i class="fas fa-lg fa-comment-dots p-3"></i></a>
+              <a href="#" class="text-purple-light"><i class="fas fa-lg fa-bell p-3"></i></a>
+            </div>
+            <div class="post border pt-4 pb-2 mt-4 bg-white">
+              <ul class="story_author d-flex flex-column align-items-center border-bottom pb-3 mb-3">
+                <li class="big-profile">
+                  <img src="img/prof.png" alt="">
+                </li>
+                <li class="mt-3">
+                  Nakitto Catherine
+                </li>
+              </ul>
+              <div class="d-flex justify-content-between px-3">
+                <p class="w-50 text-center border rounded mr-1 text-purple-light py-1 font-weight-bold">20 <br>Followers</p>
+                <p class="w-50 text-center border rounded ml-1 text-purple-light py-1 font-weight-bold">150 <br>Stories</p>
+              </div>
+              <div class="d-flex justify-content-between px-3">
+                <p class="w-100 text-center border rounded py-2 text-purple-light font-weight-bold">50 Following</p>
+              </div>
+            </div>
           </div>
-          <ul class="summary d-flex">
-            <li><a href="#"><span>10</span> Views</a></li>
-            <li><a href="#"><span>40</span> Reactions</a></li>
-            <li><a href="#"><span>100</span> Comments</a></li>
-          </ul>
-          <ul class="reactions d-flex">
-            <li><a href="#"><i class="fas fa-arrow-up"></i></a></li>
-            <li><a href="#"><i class="fas fa-heart"></i></a></li>
-            <li><a href="#"><i class="fas fa-comment"></i></a></li>
-            <li><a href="#"><i class="fas fa-reply"></i></a></li>
-          </ul>
-        </div> -->
-        <div class="load-more">
-          <a href="#">More Stories</a>
         </div>
       </div>
     </div>
